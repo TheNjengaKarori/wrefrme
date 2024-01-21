@@ -4,16 +4,16 @@ import './App.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Info from './components/Info';
+import ScreenNav from './components/ScreenNav';
 
 
-// Define the main App component
 function App() {
   return (
     <div className="app">
-      {/* Include your components here */}
       <Nav />
       <Hero />
       <Info />
+      <ScreenNav />
 
     </div>
   );

@@ -110,6 +110,38 @@ body {
   color: #555; /* Adjust text color as needed */
 }
 
+/*screennav*/
+.screen-nav {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin-top for spacing */
+}
+
+.nav-item {
+  background-color: #FCF8EC;
+  font-family: "short stack";
+  padding: 10px;
+  margin: 0 10px; /* Adjust margin between buttons */
+  border: none;
+  border-radius: 5px; /* Add rounded corners, adjust as needed */
+  cursor: pointer; /* Change cursor on hover */
+  font-size: 1rem;
+  color: #333; /* Adjust text color as needed */
+  transition: font-family 0.3s; /* Add smooth transition effects */
+}
+
+.nav-item:hover { 
+  font-weight: bold;
+  color: brown;
+}
+
+.nav-item.active {
+  font-family: 'Rock Salt'; 
+  font-weight: bold;
+}
+
+
 @media (min-width: 768px) {
   .info {
     flex-direction: row; 
