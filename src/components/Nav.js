@@ -9,7 +9,6 @@ const Nav = () => {
       <div className="logo-container">
         <img src={logoImage} alt="Logo" className="logo" />
       </div>
-      {/* Add other navigation elements as needed */}
     </nav>
   );
 };

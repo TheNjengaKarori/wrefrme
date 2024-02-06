@@ -5,9 +5,6 @@ import React from 'react';
 const Mobile = () => {
   return (
     <div>
-      {/* Content for the Mobile screen */}
-      <h2>Mobile Content</h2>
-      <p>This is the content for the Mobile screen.</p>
     </div>
   );
 };
