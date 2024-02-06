@@ -139,8 +139,23 @@ body {
 .nav-item.active {
   font-family: 'Rock Salt'; 
   font-weight: bold;
+  color: #333;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 columns with equal width */
+  grid-template-rows: repeat(4, 1fr); /* Create 4 rows with equal height */
+  gap: 16px; /* Adjust the gap between grid items */
+  margin-top: 20px; /* Adjust margin-top for spacing */
+}
+
+.grid-item {
+  background-color: #FCF8EC; /* Add background color, adjust as needed */
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+}
 
 @media (min-width: 768px) {
   .info {
